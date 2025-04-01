@@ -12,7 +12,7 @@ export default class HomePage extends Component {
         return (
             <Router>
                 <Routes>
-                    <Route path="/" element={<p>This is the home page</p>} />
+                    <Route path="/" element={<p>This is the home page change </p>} />
                     <Route path="/join" element={<RoomJoinPage />} />
                     <Route path="/create" element={<CreateRoomPage />} />
                 </Routes>

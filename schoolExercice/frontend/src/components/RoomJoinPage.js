@@ -5,6 +5,8 @@ export default class RoomJoinPage extends Component{
         super(props);
     }
     render(){
-        return <p>This is the room join page</p>
+        return <p>This is the room join page 
+            viens de changer
+        </p>
     }
 }
