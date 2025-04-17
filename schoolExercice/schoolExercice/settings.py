@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> ccf2c0db (Premier commit)
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,7 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
+SECRET_KEY = 'django-insecure-=o575l7i9-%#a@m_uum@9*sy!6l98dws0ilu^t6q*)gm-^4zgo'
+=======
 SECRET_KEY = 'django-insecure-q-wks&fa7!)+%(kok7$ale%k7k9tan@xcud^3dnu171&9ctn%k'
+>>>>>>> ccf2c0db (Premier commit)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,6 +84,10 @@ WSGI_APPLICATION = 'schoolExercice.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> ccf2c0db (Premier commit)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -84,6 +96,10 @@ DATABASES = {
 }
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> ccf2c0db (Premier commit)
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
@@ -117,10 +133,24 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+<<<<<<< HEAD
+import os
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'frontend', 'static'),
+]
+=======
+
+STATIC_URL = 'static/'
+>>>>>>> ccf2c0db (Premier commit)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
+
+AUTH_USER_MODEL = 'api.CustomUser'
+=======
+>>>>>>> ccf2c0db (Premier commit)
